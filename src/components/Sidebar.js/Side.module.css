@@ -1,0 +1,38 @@
+.container {
+	height: 50vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	position: relative;
+	top: 30px;
+	left: 20px;
+	flex: 0.33;
+}
+
+.options,
+.avatar {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.options:hover,
+.avatar:hover {
+	background: gray;
+}
+
+.options svg {
+	fill: #1278f2;
+	padding-right: 15px;
+}
+
+.avatar svg {
+	fill: #1278f2;
+}
+
+.options,
+.avatar h4 {
+	margin-left: 5px;
+}

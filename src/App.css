@@ -1,0 +1,10 @@
+.App {
+	min-width: 1440px;
+}
+.app-body {
+	height: 100%;
+	width: 100%;
+	background: #edebeb;
+	display: flex;
+	justify-content: space-between;
+}

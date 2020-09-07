@@ -1,0 +1,12 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	margin: 0 30px;
+}
+
+.stories {
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+}

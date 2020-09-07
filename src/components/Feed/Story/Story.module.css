@@ -1,0 +1,24 @@
+.container {
+	width: 150px;
+	height: 250px;
+	background: gray;
+	margin-right: 20px;
+	border: 1px solid #edebeb;
+	border-radius: 10px;
+	box-shadow: 2px 2px #edebeb;
+	position: relative;
+	background-size: cover;
+}
+
+.avatar {
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	border: 2px solid blue;
+}
+
+.container p {
+	position: absolute;
+	bottom: 20px;
+	left: 40px;
+}
